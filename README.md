@@ -128,23 +128,3 @@ with open('feature_names.pkl', 'rb') as f:
 predictions = model.predict(X_new)
 probabilities = model.predict_proba(X_new)[:, 1]
 ```
-
----
-
-## 👤 Author
-
-**Masud Pervez**
-- GitHub: [@masudpervez27](https://github.com/masudpervez27)
-
----
-
-## 📄 License
-
-This project is for educational and demonstration purposes.
-
----
-
-## 🤝 Acknowledgments
-
-- XXXX Bank (fictional case study)
-- Anti-Money Laundering best practices
