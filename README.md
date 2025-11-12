@@ -532,13 +532,27 @@ Simplified: OR = (a×d) / (b×c) from 2×2 table
     in ML model     but not practical)
 ```
 
+**Best Practice Recommendation**
+
+✅ Keep the two-tailed approach for the main hypothesis test
+
+✅ Report the directionality using descriptive statistics:
+
 **Example Interpretation:**
 
 **Scenario A: Confirmed Risk Factor**
 - χ² = 45.3, p < 0.001, V = 0.28 (small-medium effect)
 - RR = 2.8, 95% CI [2.4, 3.3]
+
 - **Conclusion:** High-Risk Country is a valid SAR predictor
+    -   "High-Risk Country customers have a SAR rate of X% vs. Y% for non-High-Risk"
+    -   "RR = 2.8 means High-Risk customers are 2.8x more likely to have SARs"
 - **Action:** Include in model, allocate enhanced monitoring resources
+
+
+
+"High-Risk Country customers have a SAR rate of X% vs. Y% for non-High-Risk"
+"RR = 2.5 means High-Risk customers are 2.5x more likely to have SARs"
 
 **Scenario B: Unexpected Finding**
 - χ² = 32.1, p < 0.001, V = 0.24 (small effect)
